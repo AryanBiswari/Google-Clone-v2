@@ -1,9 +1,15 @@
 import './App.css';
-
+import {Navbar} from './components/Navbar';
+import {Footer} from './components/Footer';
+import {Routes} from './components/Routes';
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello Aryan</h1>
+      <div>
+        <Navbar/>
+        <Footer/>
+        <Routes />
+      </div>
     </div>
   );
 }
