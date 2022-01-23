@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export class Footer extends Component {
-  render() {
-    return <div>
-        <h1>Footer</h1>
-    </div>;
-  }
-}
-
-export default Footer;
+export const Footer = () => {
+  return <div className="text-center p-10 mt-10 border-t dark:border-gray-700 border-gray-200 ">
+  © 2022 Finder, Inc.
+</div>;
+};
